@@ -1,4 +1,4 @@
-package com.bancolombia.reto_1.repositories;
+package com.bancolombia.reto_1.model.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

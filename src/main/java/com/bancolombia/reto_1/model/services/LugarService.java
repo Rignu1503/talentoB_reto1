@@ -1,4 +1,4 @@
-package com.bancolombia.reto_1.services;
+package com.bancolombia.reto_1.model.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -11,12 +11,12 @@ import org.springframework.stereotype.Service;
 
 import com.bancolombia.reto_1.entities.LugarEntity;
 import com.bancolombia.reto_1.entities.PersonaEntity;
-import com.bancolombia.reto_1.repositories.LugarRepository;
-import com.bancolombia.reto_1.repositories.PersonaRepository;
-import com.bancolombia.reto_1.services.interfaces.ILugarService;
-import com.bancolombia.reto_1.utils.dto.request.LugarRequest;
-import com.bancolombia.reto_1.utils.dto.response.LugarResponse;
-import com.bancolombia.reto_1.utils.dto.response.PersonaToLugarResponse;
+import com.bancolombia.reto_1.model.repositories.LugarRepository;
+import com.bancolombia.reto_1.model.repositories.PersonaRepository;
+import com.bancolombia.reto_1.model.services.interfaces.ILugarService;
+import com.bancolombia.reto_1.model.utils.dto.request.LugarRequest;
+import com.bancolombia.reto_1.model.utils.dto.response.LugarResponse;
+import com.bancolombia.reto_1.model.utils.dto.response.PersonaToLugarResponse;
 
 import lombok.AllArgsConstructor;
 

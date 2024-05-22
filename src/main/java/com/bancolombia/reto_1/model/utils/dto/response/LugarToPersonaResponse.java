@@ -1,4 +1,4 @@
-package com.bancolombia.reto_1.utils.dto.response;
+package com.bancolombia.reto_1.model.utils.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,11 +9,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class LugarResponse {
+public class LugarToPersonaResponse {
     
     private Long idLugar;
     private String nombre;
     private String departamento;
     private String pais;
-    private PersonaToLugarResponse persona;
 }

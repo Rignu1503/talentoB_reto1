@@ -1,4 +1,4 @@
-package com.bancolombia.reto_1.utils.dto.response;
+package com.bancolombia.reto_1.model.utils.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

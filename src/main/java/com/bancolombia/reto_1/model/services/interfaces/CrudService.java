@@ -1,4 +1,4 @@
-package com.bancolombia.reto_1.services.interfaces;
+package com.bancolombia.reto_1.model.services.interfaces;
 
 import org.springframework.data.domain.Page;
 

@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.info.License;
                 license = @License(name = "fleetnav", url = "https://github.com/fleetnav/fleetNav-microservices  LICENSE"),
                 title = "Documentación: Reto 1: Talento B",
                 version = "1.0",
-                description = "The fleetNav API documentation provides detailed information on the endpoints available to interact with the fleet management platform. Use this API to integrate vehicle tracking, route management and data analysis functionalities into your own application. The fleetNav API provides a RESTful interface that allows you to access and manipulate fleet management related data efficiently and securely."))
+                description = "En esta documentación de la API proporciona información detallada acerca de los endpoint requerido por el reto técnico propuesto por talento B"))
 public class SwaggerConfig {
     
 }

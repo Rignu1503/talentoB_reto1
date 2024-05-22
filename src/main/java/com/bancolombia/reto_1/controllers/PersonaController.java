@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bancolombia.reto_1.services.PersonaService;
-import com.bancolombia.reto_1.utils.dto.request.PersonaRequest;
-import com.bancolombia.reto_1.utils.dto.response.PersonaResponse;
+import com.bancolombia.reto_1.model.services.PersonaService;
+import com.bancolombia.reto_1.model.utils.dto.request.PersonaRequest;
+import com.bancolombia.reto_1.model.utils.dto.response.PersonaResponse;
 
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.AllArgsConstructor;
 
 @RestController
@@ -22,6 +23,7 @@ public class PersonaController {
     @Autowired
     private PersonaService personaService;
 
+     @Operation(summary = "Crear persona", description = "TEST")
     @PostMapping
     public ResponseEntity<PersonaResponse> createPersona(
         @Validated @RequestBody PersonaRequest persona

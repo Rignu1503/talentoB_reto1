@@ -1,4 +1,4 @@
-package com.bancolombia.reto_1.utils.dto.request;
+package com.bancolombia.reto_1.model.utils.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
